@@ -1,6 +1,9 @@
 // let LikeController = function ($scope){
 
-//   $scope.Like=scope.Like + 1 ;
+  // scope.like = function(){
+
+  //   $scope.like = scope.like + 1 ;
+  // };  
 
   
 // };
