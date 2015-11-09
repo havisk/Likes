@@ -1,6 +1,24 @@
-// Put any @imports here
-// See Readme for a list of supported ones
+@import 'foundation';
+
 
 body {
-  background: #e2ebf3;
+  background-image: url(../images/illini.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.car{
+  position: relative;
+  width: 200px;
+  margin: auto;
+  top: 200px;
+}
+
+.new{
+  background-color: #323E6A;
+  color: #C7392E;
+  margin: 0 auto;
+  border: 1px solid white;
+  font-size: 20px;
+
 }

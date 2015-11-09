@@ -1,5 +1,11 @@
-import $ from 'jquery';
-import _ from 'underscore';
-import moment from 'moment';
+import angular from 'angular';
 
-console.log('Hello, World');
+
+//controllers
+import LikeController from './controllers/like';
+
+//creating the model
+angular.module('really', [])
+
+// some controllers
+.controller('LikeController', LikeController);
