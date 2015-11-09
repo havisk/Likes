@@ -1,13 +1,13 @@
-// let LikeController = function ($scope){
+let LikeController = function ($scope){
 
-  // scope.like = function(){
+  $scope.likeCount = function(){
 
-  //   $scope.like = scope.like + 1 ;
-  // };  
+    $scope.like = $scope.like + 1 ;
+  };  
 
   
-// };
+};
 
-// LikeController.$inject = ['$scope'];
+LikeController.$inject = ['$scope'];
 
-// export default LikeController;
+export default LikeController;

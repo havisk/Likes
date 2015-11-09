@@ -6,8 +6,8 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-  <div class="car">
-    <button class="new"  ng-click="like = like + 1" ng-init="like=0">
+  <div class="car" ng-controller="LikeController">
+    <button class="new" ng-click="likeCount()" ng-init="like=0">
     {{like}} Likes
     </button>
   </div>
